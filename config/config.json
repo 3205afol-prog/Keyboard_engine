@@ -1,0 +1,13 @@
+{
+  "startup": {
+    "run_on_boot": true,
+    "start_minimized": true,
+    "minimize_to_tray": true
+  },
+  "toggle_key": "capslock",
+  "block_modifiers": {
+    "ctrl": true,
+    "alt": true,
+    "meta": true
+  }
+}

@@ -1,0 +1,138 @@
+2026-09-26 17:36:00.758305 ===== main.py 起動 argv=['D:\\Python_WorkDesk\\keyboard_engine\\main.py', '--autostart', '--minimized']
+2026-09-26 17:36:04.656663 is_admin() = True
+2026-09-26 17:36:04.672936 管理者権限あり → 本チェック
+2026-09-26 17:36:04.715148 ロック取得成功、launcher起動へ
+2026-09-26 17:36:04.720499 start_minimized=True autostart=True
+2026-09-26 17:36:09.855301 [launcher] launcher.main 開始 start_minimized=True autostart_engine=True
+2026-09-26 17:36:12.332904 [launcher] autostart_engine=True → start_engine呼び出し
+2026-09-28 17:38:20.994374 ===== main.py 起動 argv=['D:\\Python_WorkDesk\\keyboard_engine\\main.py', '--autostart', '--minimized']
+2026-09-28 17:38:21.559676 is_admin() = True
+2026-09-28 17:38:21.567958 管理者権限あり → 本チェック
+2026-09-28 17:38:21.575209 ロック取得成功、launcher起動へ
+2026-09-28 17:38:21.581558 start_minimized=True autostart=True
+2026-09-28 17:38:23.896006 [launcher] launcher.main 開始 start_minimized=True autostart_engine=True
+2026-09-28 17:38:24.269552 [launcher] autostart_engine=True → start_engine呼び出し
+2026-09-28 18:50:30.349272 ===== main.py 起動 argv=['D:\\Python_WorkDesk\\keyboard_engine\\main.py', '--autostart', '--minimized']
+2026-09-28 18:50:35.614567 is_admin() = True
+2026-09-28 18:50:35.622475 管理者権限あり → 本チェック
+2026-09-28 18:50:35.654759 ロック取得成功、launcher起動へ
+2026-09-28 18:50:35.672316 start_minimized=True autostart=True
+2026-09-28 18:50:46.719740 [launcher] launcher.main 開始 start_minimized=True autostart_engine=True
+2026-09-28 18:50:48.596680 [launcher] autostart_engine=True → start_engine呼び出し
+2026-09-29 13:26:11.658546 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 13:26:11.835553 is_admin() = False
+2026-09-29 13:26:11.839912 管理者権限なし → 事前チェック
+2026-09-29 13:26:11.844487 事前チェックOK、解放して昇格へ
+2026-09-29 13:26:11.849094 relaunch_as_admin 呼び出し
+2026-09-29 13:26:13.926412 relaunch_as_admin 完了、終了
+2026-09-29 13:26:14.111229 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 13:26:14.187172 is_admin() = True
+2026-09-29 13:26:14.191828 管理者権限あり → 本チェック
+2026-09-29 13:26:14.196832 ロック取得成功、launcher起動へ
+2026-09-29 13:26:14.201064 start_minimized=False autostart=False
+2026-09-29 13:26:14.702288 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
+2026-09-29 13:26:14.806188 ★★★ 例外発生 ★★★
+2026-09-29 13:26:14.833326 Traceback (most recent call last):
+  File "d:\Python_WorkDesk\keyboard_engine\main.py", line 113, in <module>
+    main()
+    ~~~~^^
+  File "d:\Python_WorkDesk\keyboard_engine\main.py", line 105, in main
+    launcher_main(start_minimized=start_minimized, autostart_engine=autostart)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_WorkDesk\keyboard_engine\launcher.py", line 142, in main
+    window = LauncherWindow()
+  File "d:\Python_WorkDesk\keyboard_engine\launcher.py", line 62, in __init__
+    self.pages.addWidget(LayoutPage(self))
+                         ~~~~~~~~~~^^^^^^
+  File "d:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 118, in __init__
+    self.reload_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 124, in reload_tabs
+    self.tab_bar.clear()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PySide6.QtWidgets.QTabBar' object has no attribute 'clear'
+
+2026-09-29 13:30:50.898191 ===== main.py 起動 argv=['D:\\Python_WorkDesk\\keyboard_engine\\main.py', '--autostart', '--minimized']
+2026-09-29 13:30:52.365308 is_admin() = True
+2026-09-29 13:30:53.179610 管理者権限あり → 本チェック
+2026-09-29 13:30:53.719391 ロック取得成功、launcher起動へ
+2026-09-29 13:30:54.017522 start_minimized=True autostart=True
+2026-09-29 13:31:05.893295 [launcher] launcher.main 開始 start_minimized=True autostart_engine=True
+2026-09-29 13:31:07.012904 ★★★ 例外発生 ★★★
+2026-09-29 13:31:07.046614 Traceback (most recent call last):
+  File "D:\Python_WorkDesk\keyboard_engine\main.py", line 113, in <module>
+    main()
+    ~~~~^^
+  File "D:\Python_WorkDesk\keyboard_engine\main.py", line 105, in main
+    launcher_main(start_minimized=start_minimized, autostart_engine=autostart)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_WorkDesk\keyboard_engine\launcher.py", line 142, in main
+    window = LauncherWindow()
+  File "D:\Python_WorkDesk\keyboard_engine\launcher.py", line 62, in __init__
+    self.pages.addWidget(LayoutPage(self))
+                         ~~~~~~~~~~^^^^^^
+  File "D:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 118, in __init__
+    self.reload_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "D:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 124, in reload_tabs
+    self.tab_bar.clear()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PySide6.QtWidgets.QTabBar' object has no attribute 'clear'
+
+2026-09-29 13:55:35.156473 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 13:55:35.229419 is_admin() = False
+2026-09-29 13:55:35.234681 管理者権限なし → 事前チェック
+2026-09-29 13:55:35.241257 事前チェックOK、解放して昇格へ
+2026-09-29 13:55:35.247084 relaunch_as_admin 呼び出し
+2026-09-29 13:55:37.081630 relaunch_as_admin 完了、終了
+2026-09-29 13:55:37.200830 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 13:55:37.282173 is_admin() = True
+2026-09-29 13:55:37.287635 管理者権限あり → 本チェック
+2026-09-29 13:55:37.294742 ロック取得成功、launcher起動へ
+2026-09-29 13:55:37.299956 start_minimized=False autostart=False
+2026-09-29 13:55:37.473893 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
+2026-09-29 13:55:37.515595 ★★★ 例外発生 ★★★
+2026-09-29 13:55:37.525591 Traceback (most recent call last):
+  File "d:\Python_WorkDesk\keyboard_engine\main.py", line 113, in <module>
+    main()
+    ~~~~^^
+  File "d:\Python_WorkDesk\keyboard_engine\main.py", line 105, in main
+    launcher_main(start_minimized=start_minimized, autostart_engine=autostart)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python_WorkDesk\keyboard_engine\launcher.py", line 142, in main
+    window = LauncherWindow()
+  File "d:\Python_WorkDesk\keyboard_engine\launcher.py", line 62, in __init__
+    self.pages.addWidget(LayoutPage(self))
+                         ~~~~~~~~~~^^^^^^
+  File "d:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 118, in __init__
+    self.reload_tabs()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python_WorkDesk\keyboard_engine\pages\layout_page.py", line 124, in reload_tabs
+    self.tab_bar.clear()
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'PySide6.QtWidgets.QTabBar' object has no attribute 'clear'
+
+2026-09-29 16:52:24.940480 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 16:52:25.030640 is_admin() = False
+2026-09-29 16:52:25.035255 管理者権限なし → 事前チェック
+2026-09-29 16:52:25.039904 事前チェックOK、解放して昇格へ
+2026-09-29 16:52:25.044524 relaunch_as_admin 呼び出し
+2026-09-29 16:52:26.772315 relaunch_as_admin 完了、終了
+2026-09-29 16:52:26.953906 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 16:52:27.016333 is_admin() = True
+2026-09-29 16:52:27.021462 管理者権限あり → 本チェック
+2026-09-29 16:52:27.026356 ロック取得成功、launcher起動へ
+2026-09-29 16:52:27.032194 start_minimized=False autostart=False
+2026-09-29 16:52:27.340746 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
+2026-09-29 17:15:50.540075 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 17:15:50.750099 is_admin() = False
+2026-09-29 17:15:50.754733 管理者権限なし → 事前チェック
+2026-09-29 17:15:50.759411 事前チェックOK、解放して昇格へ
+2026-09-29 17:15:50.763796 relaunch_as_admin 呼び出し
+2026-09-29 17:15:52.415174 relaunch_as_admin 完了、終了
+2026-09-29 17:15:52.560609 ===== main.py 起動 argv=['d:/Python_WorkDesk/keyboard_engine/main.py']
+2026-09-29 17:15:52.625644 is_admin() = True
+2026-09-29 17:15:52.630296 管理者権限あり → 本チェック
+2026-09-29 17:15:52.634989 ロック取得成功、launcher起動へ
+2026-09-29 17:15:52.640485 start_minimized=False autostart=False
+2026-09-29 17:15:52.789883 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
