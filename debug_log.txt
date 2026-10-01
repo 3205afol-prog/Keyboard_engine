@@ -136,3 +136,15 @@ AttributeError: 'PySide6.QtWidgets.QTabBar' object has no attribute 'clear'
 2026-09-29 17:15:52.634989 ロック取得成功、launcher起動へ
 2026-09-29 17:15:52.640485 start_minimized=False autostart=False
 2026-09-29 17:15:52.789883 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
+2026-10-01 08:08:59.299066 ===== main.py 起動 argv=['c:/Users/afol3/OneDrive/ドキュメント/GitHub/Keyboard_engine/main.py']
+2026-10-01 08:08:59.511823 is_admin() = False
+2026-10-01 08:08:59.512339 管理者権限なし → 事前チェック
+2026-10-01 08:08:59.513247 事前チェックOK、解放して昇格へ
+2026-10-01 08:08:59.514048 relaunch_as_admin 呼び出し
+2026-10-01 08:09:01.409381 relaunch_as_admin 完了、終了
+2026-10-01 08:09:01.542111 ===== main.py 起動 argv=['c:/Users/afol3/OneDrive/ドキュメント/GitHub/Keyboard_engine/main.py']
+2026-10-01 08:09:01.620395 is_admin() = True
+2026-10-01 08:09:01.622129 管理者権限あり → 本チェック
+2026-10-01 08:09:01.622733 ロック取得成功、launcher起動へ
+2026-10-01 08:09:01.623261 start_minimized=False autostart=False
+2026-10-01 08:09:01.914962 [launcher] launcher.main 開始 start_minimized=False autostart_engine=False
